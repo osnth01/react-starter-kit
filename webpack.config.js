@@ -22,5 +22,6 @@ module.exports = {
         loaders: ['style', 'css']
       }
     ]
-  }
+  },
+  devtool: 'source-map'
 }
