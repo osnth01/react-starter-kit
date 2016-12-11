@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import style from './css/style.css'
+import style from './css/style.scss'
 
 import App from './components/App'
 
