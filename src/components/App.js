@@ -1,16 +1,14 @@
-import React from 'react'
-import { Link } from 'react-router'
+import React, { Component } from 'react'
 import AppStyle from './App.css'
 
-const App = (props) => (
-  <div className={AppStyle.app}>
-    <ul role="nav">
-      <li><Link to="/">Hello</Link></li>
-      <li><Link to="/goodbye">GoodBye</Link></li>
-    </ul>
-
-    {props.children}
-  </div>
-)
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Hello World</h1>
+      </div>
+    )
+  }
+}
 
 export default App
